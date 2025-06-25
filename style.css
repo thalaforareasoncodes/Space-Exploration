@@ -1,0 +1,46 @@
+body {
+	background-color: #2f4f7f;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #1a1d23;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	margin: 10px;
+}
+
+nav a:hover {
+	color: #00ffff;
+}
+
+.tab-content {
+	display: none;
+	padding: 20px;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+.planets {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.planet {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	width: 200px;
+}
